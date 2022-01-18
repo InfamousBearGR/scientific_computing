@@ -2,9 +2,9 @@
 
 A Matlab exercise given by our teacher.
 
-`sp_mat2latex` takes a square sparse matrix and converts it to CSR or CSC depending on the sp_type ('csc' or 'csr). The output is val,row_ip,col_ip
+`sp_mat2latex` takes a square sparse matrix and converts it to CSR or CSC depending on the sp_type ('csc' or 'csr). The output is val,row_ip,col_ip. Lastly the results are saved in a tex file called erot1.tex.
 
-`blkToeplitzTrid` takes 3 matrices (A, B, C) size m x m and makes a tridagonial Toeplitz matrix with A, B, C blocks in the diagonal region, n is the number for creating the final nm x nm matrix
+`blkToeplitzTrid` takes 3 matrices (A, B, C) size m x m and makes a tridagonial Toeplitz matrix with A, B, C blocks in the diagonal region, n is the number for creating the final nm x nm matrix.
 
 `sp_mx2bccs` takes a sparse square matrix and converts it to BCCS, nb is the size of the blocks for BCCS. The output is val,brow_idx,bcol_ptr.
 
