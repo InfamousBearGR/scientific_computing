@@ -1,5 +1,4 @@
 function [y]= spmv_bccs(y,x,nb,val,brow_idx,bcol_ptr)
-% Author : ΑΒΡΑΜΟΠΟΥΛΟΣ ΜΙΧΑΗΛ , ΑΜ 1067451 , Date : 29/12/2021
 n = length(bcol_ptr)-1;
 p=1;
 for j=1:n
