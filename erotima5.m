@@ -1,5 +1,4 @@
 function [error] = erotima5(m,n)
-% Author : ΑΒΡΑΜΟΠΟΥΛΟΣ ΜΙΧΑΗΛ , ΑΜ 1067451 , Date : 13/1/2022
 T = toeplitz([4,-1,zeros(1,m-2)]);
 S = blkToeplitzTrid(n,inv(T),T^2,T);
 y = eye(n*m,1);
