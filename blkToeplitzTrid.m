@@ -1,5 +1,4 @@
 function [F] = blkToeplitzTrid(n,B,A,C)
-% Author : ΑΒΡΑΜΟΠΟΥΛΟΣ ΜΙΧΑΗΛ , ΑΜ 1067451 , Date : 21/12/2021
 F = cell(n);
 m = size(A);
 
