@@ -1,5 +1,4 @@
 function [val,row_ip,col_ip] = sp_mat2latex(A, sp_type)
-% Author : ΑΒΡΑΜΟΠΟΥΛΟΣ ΜΙΧΑΗΛ , ΑΜ 1067451 , Date : 15/12/2021
     if strcmp(sp_type, 'csr')
         A = transpose(A); % η find με transposed A μας δίνει row_ptr αλλίως μας δίνει col_ptr (δηλαδή csc)
     end
